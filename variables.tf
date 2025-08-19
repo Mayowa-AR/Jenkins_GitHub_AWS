@@ -1,7 +1,7 @@
 variable "region" {
   description = "AWS region"
   type        = string
-  default     = "eu-west-1"
+  default     = "us-west-2"
 }
 
 variable "instance_type" {
@@ -9,7 +9,7 @@ variable "instance_type" {
 }
 
 variable "instance_ami" {
-  default     = "ami-01f23391a59163da9"
+  default     = "ami-05f991c49d264708f"
 }
 
 variable "vpc_id" {
@@ -17,7 +17,7 @@ variable "vpc_id" {
 }
 
 variable "key_name" {
-  default     = "test-keypair"
+  default     = "Jenkins_key"
 }
 
 
