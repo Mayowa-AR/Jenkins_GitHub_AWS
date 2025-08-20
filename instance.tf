@@ -4,7 +4,7 @@ resource "aws_instance" "jk_instance" {
   ami = var.instance_ami
   key_name = var.key_name
   user_data = file("user_data.sh")
-  count = 2
+  
 
   tags = {
     Name = "JKTerraformInstance"
