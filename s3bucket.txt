@@ -1,0 +1,4 @@
+# S3 api call
+aws s3api create-bucket \
+--bucket myterraform-bucket-mayowa \
+--region us-west-2
