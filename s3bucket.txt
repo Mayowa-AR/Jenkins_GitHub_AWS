@@ -2,3 +2,6 @@
 aws s3api create-bucket \
 --bucket myterraform-bucket-mayowa \
 --region us-west-2
+
+#Jenkins installation command
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
